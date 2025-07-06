@@ -1,9 +1,9 @@
 [package]
 name = "m4b-extractor"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 license = "MIT"
-description = "m4b-extractor will extract chapters, metadata and cover."
+description = "CLI tool to extract chapters, metadata and cover for M4B Audiobook."
 homepage = "https://github.com/ewilan-riviere/m4b-extractor"
 repository = "https://github.com/ewilan-riviere/m4b-extractor"
 readme = "README.md"
