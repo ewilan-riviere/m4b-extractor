@@ -1,16 +1,3 @@
-// #[cfg(test)]
-// mod tests {
-//     use crate::list_files_recursive;
-//     #[test]
-//     fn test_list_files() {
-//         let files = list_files_recursive("./src");
-//         println!("{:?}", files);
-//         assert_eq!(files.len(), 2);
-//         assert!(files.contains(&"./src/test.rs".to_string()));
-//         assert!(files.contains(&"./src/main.rs".to_string()));
-//     }
-// }
-
 use std::fs;
 use std::path::Path;
 use std::process::Command;
@@ -38,7 +25,7 @@ fn test_output_files_exist() {
 
 #[test]
 fn test_m4b_extractor_basic() {
-    // Path to your compiled binary
+    // Path to compiled binary
     // When running tests with `cargo test`, the binary is usually at:
     // ./target/debug/m4b-extractor
     // Use `cargo build` or `cargo build --release` before running tests
