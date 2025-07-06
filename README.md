@@ -5,6 +5,11 @@
 
 [Rust](https://www.rust-lang.org/) CLI tool to extract chapters, metadata and cover for M4B Audiobook. . Based on idea of [Hasan Arous](https://unix.stackexchange.com/questions/499179/using-ffmpeg-to-split-an-audible-audio-book-into-chapters).
 
+## Requirements
+
+- [Rust](https://www.rust-lang.org/)
+- [FFmpeg](https://ffmpeg.org/) installed and available in your `PATH`
+
 ## Installation
 
 You can install `m4b-extractor` with [Cargo](https://doc.rust-lang.org/cargo/).
