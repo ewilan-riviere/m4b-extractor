@@ -60,10 +60,16 @@ cargo test
 cargo build --release
 ```
 
-Publish the package to [crates.io](https://crates.io):
+Test publishing:
 
 ```bash
 cargo publish --dry-run
+```
+
+Publish the package to [crates.io](https://crates.io):
+
+```bash
+cargo publish
 ```
 
 ## License
