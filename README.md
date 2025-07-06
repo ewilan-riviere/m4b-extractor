@@ -1,8 +1,7 @@
 # m4b-extractor
 
 [![rust][rust-version-src]][rust-version-href]
-<!-- [![tests][tests-src]][tests-href] -->
-<!-- [![codecov][codecov-src]][codecov-href] -->
+[![tests][tests-src]][tests-href]
 
 [Rust](https://www.rust-lang.org/) CLI to extract chapters, metadata and cover. Based on idea of [Hasan Arous](https://unix.stackexchange.com/questions/499179/using-ffmpeg-to-split-an-audible-audio-book-into-chapters).
 
@@ -74,3 +73,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [rust-version-src]: https://img.shields.io/badge/Rust-v1.88.0-000000?colorA=18181B&logo=Rust&logoColor=ffffff
 [rust-version-href]: https://www.rust-lang.org/
+[tests-src]: https://img.shields.io/github/actions/workflow/status/ewilan-riviere/m4b-extractor/run-tests.yml?branch=main&label=tests&style=flat&colorA=18181B
+[tests-href]: https://github.com/ewilan-riviere/m4b-extractor/actions
