@@ -4,7 +4,7 @@
 <!-- [![tests][tests-src]][tests-href] -->
 <!-- [![codecov][codecov-src]][codecov-href] -->
 
-[Rust](https://www.rust-lang.org/) CLI to extract chapters, metadata and cover.
+[Rust](https://www.rust-lang.org/) CLI to extract chapters, metadata and cover. Based on idea of [Hasan Arous](https://unix.stackexchange.com/questions/499179/using-ffmpeg-to-split-an-audible-audio-book-into-chapters).
 
 ## Installation
 
