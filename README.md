@@ -57,7 +57,6 @@ Build and test the package:
 
 ```bash
 cargo test
-rm -rf ./target
 cargo build --release
 ```
 
