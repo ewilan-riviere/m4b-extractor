@@ -58,13 +58,13 @@ m4b-extractor --help
 - `-h`, `--help`: Print help information.
 - `-V`, `--version`: Print the version of the tool.
 
-## Build and publish
+## Test and publish
 
 Build and test the package:
 
 ```bash
-cargo test
 cargo build --release
+cargo test
 ```
 
 Test publishing:
